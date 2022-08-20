@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>CRUD localStorage</title>
+</head>
+<body>
+    <header>
+        <h1>Cadastro</h1>
+    </header>
+    <main>
+        <button class="add-btn">Cadastrar</button>
+
+        <table>
+            <thead>
+                <tr>
+                    <td class="table-head">Colum01</td>
+                    <td class="table-head">Colum02</td>
+                    <td class="table-head">Colum03</td>
+                    <td class="table-head">Colum04</td>
+                    <td class="table-head">Colum05</td>
+                </tr>
+
+                <tr>
+                    <td>dado01</td>
+                    <td>dado02</td>
+                    <td>dado03</td>
+                    <td>dado04</td>
+                    <td>dado05</td>
+                </tr>
+            </thead>
+        </table>
+
+        <div id="fade" class="hide"></div>
+        <div id="modal" class="hide">
+            <div class="modal-content">
+                <div class="form-header">
+                    <h1>titulo do FORM</h1>
+                    <button class="close-btn">Fechar</button>
+                </div>
+                <form id="form">
+                    <div class="form-content">
+                        <div class="form-data">
+                            <label for="dado01">dado01:</label>
+                            <input type="text" placeholder="dado01">
+                        </div>
+                        <div class="form-data">
+                            <label for="dado02">dado02:</label>
+                            <input type="text" placeholder="dado02">
+                        </div>
+                        <div class="form-data">
+                            <label for="dado03">dado03:</label>
+                            <input type="text" placeholder="dado03">
+                        </div>
+                        <div class="form-data">
+                            <label for="dado04">dado04:</label>
+                            <input type="text" placeholder="dado04">
+                        </div>
+                        <div class="form-data">
+                            <label for="dado05">dado05:</label>
+                            <input type="text" placeholder="dado05">
+                        </div>
+                    </div>
+
+                    <button class="cadastrar-btn" type="submit">Cadatrar</button>
+                </form>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
